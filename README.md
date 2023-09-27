@@ -6,6 +6,13 @@
 
 ### To Run the Program
 
+#### Files Info
+- A training file (WSJ_02-21.pos) consisting of about 950K words. Each line consists of a token, a single blank, and the part-of-speech of that token using the Penn Treebank tag set. Sentence boundaries are marked by an empty line (about 40K sentences).
+- A Development file (WSJ_24.pos) in the same format as the training file, consisting of about 32.9 K words (about 1350 sentences).
+- A Development test file (WSJ_24.words) -- the same as WSJ_24.pos, but without the POS tags
+- A Test file (WSJ_23.words) in the same format as the Development test file. (56.7K words, about 2415 sentences.)
+- A scoring program (score.py) for you to see how well you are doing on the development set.
+
 #### Using Terminal/Command Line
 0. Pre Steps
 - Make sure you have successfully downloaded the compiler for c++ on your device. 
