@@ -1,6 +1,6 @@
 # Viterbi Algorithm for Hidden Markov Model with C++
-- Hi, welcome to my README page. This project is a self designed and implemented a viterbi algorithm for hidden markov model for POS (Part of speech) tagging in Natural Language Processing
-- This program uses the C++14 compiler and most of the functions are created using the standard template library in C++. No extra outside packaged are needed for the program.
+- Hi, welcome to my README page. This project is a self designed viterbi algorithm for hidden markov model for POS (Part of speech) tagging in Natural Language Processing
+- This program uses the C++14 compiler and most of the functions are created using the standard template library in C++.
 - For testing, the program achieved an accuracy level of 96% for a file with 56,000 words.
 - There are several methods that are implemented for the design of the OOV (Our of vocabulary) words tagging, including K-smoothing, hard coded grammars, and etc.
 
